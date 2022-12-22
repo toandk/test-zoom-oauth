@@ -1,0 +1,8 @@
+<script>
+    const params = new URLSearchParams(window.location.search)
+    const code = params.get('code') || ''
+    window.location = 'work.gapo://zoom-auth?code='+code;
+    setTimeout(function() {
+        window.location = "https://apps.apple.com/vn/app/gapowork/id1554231876";
+    }, 500);
+</script>
